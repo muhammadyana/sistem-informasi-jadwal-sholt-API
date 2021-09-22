@@ -30,6 +30,12 @@ Siforlat use stoplight as API Documenation, please visit [Siforlat API Documenta
 ### Run Server
 ``` npm run start ```
 
+or via docker:
+```
+docker build -t siforsolat .
+docker run -p 5000:5000 -d siforsolat
+```
+
 ### Use app
 running in local
 http://localhost:5000/api/v1/prayTimes?latitude=-6.300060&longitude=106.670181&duration=100
